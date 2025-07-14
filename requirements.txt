@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+transformers
+torch
+pandas
+yfinance
+scikit-learn
+matplotlib
+tensorflow
+tabulate
+apscheduler
+requests
