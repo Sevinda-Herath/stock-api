@@ -25,7 +25,7 @@ The API currently supports the following stock symbols:
 
 ```bash
 # Install  Docker
-sudo apt  install docker-compose
+sudo apt  install docker-compose apt-utils
 
 #Add your user to the docker group
 sudo usermod -aG docker $USER
