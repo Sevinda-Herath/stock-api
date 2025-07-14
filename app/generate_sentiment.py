@@ -7,16 +7,28 @@ from datetime import datetime, timedelta
 import re
 
 # === Configuration Section ===
-NEWS_API_KEY = 'e3762f837b5d4677a8fc78db2fdc0d2f'  # Replace with your NewsAPI key
+NEWS_API_KEY = 'e3762f837b5d4677a8fc78db2fdc0d2f'
 date_str = datetime.today().strftime('%Y-%m-%d')
 
-# Create output directories
-sentiment_dir = os.path.join("sentiment", date_str)
-chart_dir = os.path.join("charts", date_str)
-summary_dir = os.path.join("summary", date_str)
+# Output directories
+sentiment_dir = os.path.join("sentiments/sentiment", date_str)
+chart_dir = os.path.join("sentiments/charts", date_str)
+summary_dir = os.path.join("sentiments/summary", date_str)
+log_dir = "logs"
+log_file = os.path.join(log_dir, f"{date_str}.log")
+
 os.makedirs(sentiment_dir, exist_ok=True)
 os.makedirs(chart_dir, exist_ok=True)
 os.makedirs(summary_dir, exist_ok=True)
+os.makedirs(log_dir, exist_ok=True)
+
+# Logging Helper
+def log(message):
+    print(message)
+    with open(log_file, "a") as f:
+        f.write(f"[{datetime.now().strftime('%H:%M:%S')}] {message}\n")
+
+log("🟢 Sentiment analysis job started")
 
 # === Stock Symbol => Query Mapping ===
 stock_queries = {
@@ -32,11 +44,12 @@ stock_queries = {
     'JPM': 'JPMorgan Chase & Co'
 }
 
-# === Load FinBERT Model for Sentiment Analysis ===
-print("Loading FinBERT model...")
+# === Load FinBERT Model ===
+log("🔄 Loading FinBERT model...")
 tokenizer = AutoTokenizer.from_pretrained("ProsusAI/finbert")
 model = AutoModelForSequenceClassification.from_pretrained("ProsusAI/finbert")
 sentiment_pipeline = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer)
+log("✅ FinBERT model loaded")
 
 # === Helper Function to Clean Text ===
 def clean_text(text):
@@ -44,15 +57,14 @@ def clean_text(text):
         return ""
     return re.sub(r'\s+', ' ', text).strip()
 
-# === Loop Through Each Stock to Fetch News and Analyze Sentiment ===
+# === Fetch News & Analyze Sentiment ===
 for symbol, query in stock_queries.items():
-    print(f"\nFetching news for {symbol} using query: {query}")
+    log(f"\n🔍 Fetching news for {symbol}...")
     all_articles = []
 
     for i in range(7):
         day = datetime.today() - timedelta(days=i)
         day_str = day.strftime('%Y-%m-%d')
-
         url = (
             f"https://newsapi.org/v2/everything?q={query}&from={day_str}&to={day_str}"
             f"&sortBy=publishedAt&pageSize=14&apiKey={NEWS_API_KEY}&language=en"
@@ -63,7 +75,7 @@ for symbol, query in stock_queries.items():
             response.raise_for_status()
             articles = response.json().get("articles", [])
         except Exception as e:
-            print(f"Error fetching news for {symbol} on {day_str}: {e}")
+            log(f"❌ Error fetching news for {symbol} on {day_str}: {e}")
             continue
 
         for article in articles:
@@ -79,36 +91,39 @@ for symbol, query in stock_queries.items():
                 })
 
     if not all_articles:
-        print(f"No valid news articles found for {symbol}.")
+        log(f"⚠️ No valid news articles found for {symbol}.")
         continue
 
     texts = [f"{a['title']}. {a['description']}" for a in all_articles]
     try:
         results = sentiment_pipeline(texts)
     except Exception as e:
-        print(f"Sentiment analysis failed for {symbol}: {e}")
+        log(f"❌ Sentiment analysis failed for {symbol}: {e}")
         continue
 
     df = pd.DataFrame(all_articles)
-    df["sentiment"] = [r["label"] for r in results]
+    df["sentiment"] = [r["label"].lower() for r in results]
     df["confidence"] = [r["score"] for r in results]
 
     csv_path = os.path.join(sentiment_dir, f"{symbol}_sentiment.csv")
     df.to_csv(csv_path, index=False)
-    print(f"Saved sentiment CSV to {csv_path}")
+    log(f"✅ Saved sentiment CSV: {csv_path}")
 
-    plt.figure(figsize=(6, 4))
-    df["sentiment"].value_counts().plot(kind='bar', color=["green", "red", "gray"])
-    plt.title(f"Sentiment for {symbol} News (Last 7 Days, 14/Day)")
-    plt.xlabel("Sentiment")
-    plt.ylabel("Number of Articles")
-    plt.xticks(rotation=0)
-    plt.tight_layout()
-
-    chart_path = os.path.join(chart_dir, f"{symbol}_chart.png")
-    plt.savefig(chart_path)
-    plt.close()
-    print(f"Saved sentiment chart to {chart_path}")
+    # Chart
+    try:
+        plt.figure(figsize=(6, 4))
+        df["sentiment"].value_counts().plot(kind='bar', color=["green", "red", "gray"])
+        plt.title(f"Sentiment for {symbol} News (Last 7 Days, 14/Day)")
+        plt.xlabel("Sentiment")
+        plt.ylabel("Number of Articles")
+        plt.xticks(rotation=0)
+        plt.tight_layout()
+        chart_path = os.path.join(chart_dir, f"{symbol}_chart.png")
+        plt.savefig(chart_path)
+        plt.close()
+        log(f"📊 Saved chart: {chart_path}")
+    except Exception as e:
+        log(f"❌ Failed to generate chart for {symbol}: {e}")
 
 # === Final Summary Output ===
 all_summaries = []
@@ -116,10 +131,12 @@ all_summaries = []
 for symbol in stock_queries:
     csv_file = os.path.join(sentiment_dir, f"{symbol}_sentiment.csv")
     if not os.path.exists(csv_file):
+        log(f"⚠️ Missing sentiment file for {symbol}, skipping summary")
         continue
 
     df = pd.read_csv(csv_file)
     if df.empty:
+        log(f"⚠️ Empty sentiment file for {symbol}")
         continue
 
     sentiment_counts = df["sentiment"].value_counts().to_dict()
@@ -138,22 +155,19 @@ for symbol in stock_queries:
     }
 
     summary_df = pd.DataFrame([summary_data])
-    summary_file_path = os.path.join(summary_dir, f"{symbol}_summary.csv")
-    summary_df.to_csv(summary_file_path, index=False)
-    print(f"📁 Saved individual summary: {summary_file_path}")
-
+    summary_path = os.path.join(summary_dir, f"{symbol}_summary.csv")
+    summary_df.to_csv(summary_path, index=False)
+    log(f"📁 Saved summary for {symbol}: {summary_path}")
     all_summaries.append(summary_data)
 
-# Save combined summary
+# === Save combined summary ===
 if all_summaries:
     combined_df = pd.DataFrame(all_summaries)
     combined_path = os.path.join(summary_dir, "all_symbols_summary.csv")
     combined_df.to_csv(combined_path, index=False)
-    print(f"\n📊 Combined summary saved to: {combined_path}")
+    log(f"\n📊 Combined summary saved to: {combined_path}")
 else:
-    print("⚠️ No data available to write combined summary.")
+    log("⚠️ No data available to write combined summary.")
 
-# === Final Log Messages ===
-print(f"\n✅ All sentiment CSVs saved in: {sentiment_dir}")
-print(f"✅ All sentiment charts saved in: {chart_dir}")
-print(f"✅ All summary files saved in: {summary_dir}")
+# === Final Log Message ===
+log(f"\n✅ Sentiment analysis completed for all stocks on {date_str}")

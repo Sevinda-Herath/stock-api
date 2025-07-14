@@ -8,7 +8,7 @@ def predict_lstm_sentiment_price(symbol, time_steps):
 
     today = datetime.today().strftime('%Y-%m-%d')
     model_path = f"models/lstm_senti/{symbol}_best_model.h5"
-    sentiment_path = f"sentiment/{today}/{symbol}_sentiment.csv"
+    sentiment_path = f"sentiments/sentiment/{today}/{symbol}_sentiment.csv"
     stock_path = f"datasets/{symbol}_daily_data.csv"
 
     if not os.path.exists(model_path):

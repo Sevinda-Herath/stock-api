@@ -9,10 +9,11 @@ def run_daily_scripts():
 
     # Run the scripts
     subprocess.run(["python3", "app/download_datasets.py"])
-    # subprocess.run(["python3", "app/generate_sentiment.py"])
+    subprocess.run(["python3", "app/generate_sentiment.py"])
+    subprocess.run(["python3", "app/save_predictions.py"])
 
     # Log completion
-    log_file = "app/scheduler_log.csv"
+    log_file = "logs/scheduler_log.csv"
     os.makedirs(os.path.dirname(log_file), exist_ok=True)
     log_entry = [datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "Completed daily update"]
 
@@ -28,5 +29,5 @@ def run_daily_scripts():
 
 # Schedule the task
 scheduler = BackgroundScheduler()
-scheduler.add_job(run_daily_scripts, 'cron', hour=7, minute=15)  # Daily at 07:15 AM
+scheduler.add_job(run_daily_scripts, 'cron', hour=16, minute=59)  # Daily at 01:00 AM
 scheduler.start()
