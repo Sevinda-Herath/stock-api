@@ -16,6 +16,9 @@ if ! command -v docker-compose &> /dev/null; then
     exit 1
 fi
 
+# Change to docker directory
+cd "$(dirname "$0")"
+
 # Build and start the container
 echo "Building and starting container..."
 docker-compose up --build -d
