@@ -7,7 +7,7 @@ def predict_lstm_sentiment_price(symbol, time_steps):
     import os
 
     today = datetime.today().strftime('%Y-%m-%d')
-    model_path = f"models/{symbol}_best_model.h5"
+    model_path = f"models/lstm_senti/{symbol}_best_model.h5"
     sentiment_path = f"sentiment/{today}/{symbol}_sentiment.csv"
     stock_path = f"datasets/{symbol}_daily_data.csv"
 
@@ -24,7 +24,11 @@ def predict_lstm_sentiment_price(symbol, time_steps):
 
     sentiment_df = pd.read_csv(sentiment_path)
     sentiment_df['date'] = pd.to_datetime(sentiment_df['date'])
-    sentiment_df['sentiment_score'] = sentiment_df['sentiment'].map({'POSITIVE': 1, 'NEGATIVE': -1, 'NEUTRAL': 0})
+    sentiment_df['sentiment_score'] = sentiment_df['sentiment'].map({
+        'POSITIVE': 1,
+        'NEGATIVE': -1,
+        'NEUTRAL': 0
+    })
 
     daily_sentiment = sentiment_df.groupby('date')['sentiment_score'].mean().reset_index()
     daily_sentiment.columns = ['Date', 'Sentiment']

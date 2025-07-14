@@ -1,22 +1,22 @@
 def predict_lstm_price(symbol, time_steps):
-    import yfinance as yf
     import numpy as np
     import pandas as pd
     from sklearn.preprocessing import MinMaxScaler
     from tensorflow.keras.models import load_model
-    from datetime import datetime, timedelta
+    from datetime import datetime
     import os
 
-    model_path = f"models/{symbol}_best_model.h5"
+    model_path = f"models/lstm/{symbol}_best_model.h5"
+    data_path = f"datasets/{symbol}_daily_data.csv"
+
     if not os.path.exists(model_path):
-        raise FileNotFoundError(f"Model file not found for {symbol}")
+        raise FileNotFoundError(f"Model file not found: {model_path}")
+    if not os.path.exists(data_path):
+        raise FileNotFoundError(f"Stock data file not found: {data_path}")
 
     model = load_model(model_path)
 
-    end_date = datetime.today().strftime('%Y-%m-%d')
-    start_date = (datetime.today() - timedelta(days=time_steps * 2)).strftime('%Y-%m-%d')
-
-    df = yf.download(symbol, start=start_date, end=end_date)
+    df = pd.read_csv(data_path)
     df = df[['Close']].dropna()
 
     if len(df) < time_steps:

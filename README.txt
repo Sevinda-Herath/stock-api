@@ -9,3 +9,7 @@ autorun
 sudo apt install tmux
 tmux
 bash run.sh
+
+
+manul run scripts
+python3 scripts
