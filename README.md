@@ -24,6 +24,13 @@ The API currently supports the following stock symbols:
 ### Option 1: Docker (Recommended)
 
 ```bash
+# Install  Docker
+sudo apt  install docker-compose
+
+#Add your user to the docker group
+sudo usermod -aG docker $USER
+newgrp docker
+
 # Quick start with Docker
 ./docker.sh build && ./docker.sh start
 
