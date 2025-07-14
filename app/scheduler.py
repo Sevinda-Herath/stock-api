@@ -9,7 +9,7 @@ def run_daily_scripts():
 
     # Run the scripts
     subprocess.run(["python3", "app/download_datasets.py"])
-    # subprocess.run(["python3", "app/generate_sentiment.py"])
+    subprocess.run(["python3", "app/generate_sentiment.py"])
     subprocess.run(["python3", "app/save_predictions.py"])
 
     # Log completion
