@@ -1,0 +1,2 @@
+symbol,train_mae,train_mse,train_r2,test_mae,test_mse,test_r2,next_day_prediction
+005930.KS,351.5538,287329.2619,0.9981,996.4562,1673499.6517,0.9806,62037.12

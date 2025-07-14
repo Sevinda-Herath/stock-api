@@ -1,0 +1,2 @@
+symbol,train_mae,train_mse,train_r2,test_mae,test_mse,test_r2,next_day_prediction
+2317.TW,0.9901,1.7034,0.9965,1.7062,7.6566,0.9947,163.1873

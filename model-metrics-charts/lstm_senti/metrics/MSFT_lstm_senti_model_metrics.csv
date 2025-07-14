@@ -1,0 +1,2 @@
+symbol,train_mae,train_mse,train_r2,test_mae,test_mse,test_r2,next_day_prediction
+MSFT,0.675,1.5232,0.9987,5.386,50.0006,0.9924,500.5797

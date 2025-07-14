@@ -1,0 +1,2 @@
+symbol,train_mae,train_mse,train_r2,test_mae,test_mse,test_r2,next_day_prediction
+JD,0.9054,2.0185,0.9939,0.7351,1.0504,0.9686,31.128

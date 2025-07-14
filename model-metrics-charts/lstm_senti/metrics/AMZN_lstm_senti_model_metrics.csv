@@ -1,0 +1,2 @@
+symbol,train_mae,train_mse,train_r2,test_mae,test_mse,test_r2,next_day_prediction
+AMZN,0.8977,1.2734,0.9985,2.9957,15.8557,0.9865,221.8782
