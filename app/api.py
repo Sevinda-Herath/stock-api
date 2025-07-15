@@ -86,6 +86,7 @@ def predict_price(symbol: str = Query(...), days: int = Query(60)):
     try:
         price = predict_lstm_price(symbol.upper(), days)
         return {
+            "date": TODAY,
             "stock": symbol.upper(),
             "predicted_price_for_tommorow": float(round(price, 2))  # Fix: convert numpy.float32 to float
         }
@@ -98,6 +99,7 @@ def predict_price_sentiment(symbol: str = Query(...), days: int = Query(60)):
     try:
         price = predict_lstm_sentiment_price(symbol.upper(), days)
         return {
+            "date": TODAY,
             "stock": symbol.upper(),
             "predicted_price_for_tommorow": float(round(price, 2))  # Fix: convert numpy.float32 to float
         }

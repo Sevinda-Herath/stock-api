@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 import re
 
 # === Configuration Section ===
-NEWS_API_KEY = 'e3762f837b5d4677a8fc78db2fdc0d2f'
+NEWS_API_KEY = 'e919ab46c14647178653af10ff791729'
 date_str = datetime.today().strftime('%Y-%m-%d')
 
 # Output directories
@@ -31,17 +31,17 @@ def log(message):
 log("🟢 Sentiment analysis job started")
 
 # === Stock Symbol => Query Mapping ===
-stock_queries = {
-    'AAPL': 'Apple Inc',
-    'MSFT': 'Microsoft Corporation',
-    'GOOGL': 'Alphabet Inc',
-    'AMZN': 'Amazon.com Inc',
-    'NVDA': 'NVIDIA Corporation',
-    'META': 'Meta Platforms Inc',
-    'TSLA': 'Tesla Inc',
-    'BRK-B': 'Berkshire Hathaway Inc',
-    'UNH': 'UnitedHealth Group Incorporated',
-    'JPM': 'JPMorgan Chase & Co'
+stock_queries = symbols = {
+    'AMZN':'Amazon',
+    'AAPL':'Apple',
+    'GOOGL':'Google',
+    '005930.KS':'Samsung',
+    '2317.TW':'Foxconn ',
+    'MSFT':'Microsoft',
+    'JD':'JD.com',
+    'BABA':'Alibaba',
+    'T':'AT&T',
+    'META':'Meta'
 }
 
 # === Load FinBERT Model ===
