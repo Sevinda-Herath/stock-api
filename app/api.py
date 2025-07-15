@@ -3,11 +3,27 @@ from fastapi.responses import JSONResponse, FileResponse
 import pandas as pd
 import os
 from datetime import datetime
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 
 import app.scheduler  # ensures the daily scheduler runs
 
 app = FastAPI()
 TODAY = datetime.today().strftime("%Y-%m-%d")
+
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
+
+@app.get("/favicon.ico")
+def favicon():
+    favicon_path = "static/favicon.ico"
+    if os.path.exists(favicon_path):
+        return FileResponse(favicon_path, media_type="image/x-icon")
+    return JSONResponse(content={"error": "Favicon not found"}, status_code=404)
+
+@app.get("/health")
+def health_check():
+    return {"status": "ok", "date": TODAY}
 
 @app.get("/")
 def root():
