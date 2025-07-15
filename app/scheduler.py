@@ -29,5 +29,5 @@ def run_daily_scripts():
 
 # Schedule the task
 scheduler = BackgroundScheduler()
-scheduler.add_job(run_daily_scripts, 'cron', hour=6, minute=26)  # Daily at 03:30 AM UTC about 9.00 am in Sri Lanka
+scheduler.add_job(run_daily_scripts, 'cron', hour=2, minute=30)  # 01:30 AM UTC / 07:00 AM SLST
 scheduler.start()

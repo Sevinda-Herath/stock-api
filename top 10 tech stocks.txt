@@ -1,13 +1,13 @@
-List of largest technology companies by revenue - https://en.wikipedia.org/wiki/List_of_largest_technology_companies_by_revenue
-Company 	Revenue ($B) USD[2] 	Employees[2] 	Country (origin) 	Headquarters
-Amazon 	$574.8 	1,525,000 	US 	Seattle, Washington & Arlington, Virginia, US
-Apple 	$394.33 	164,000 	US 	Cupertino, California, US
-Alphabet 	$282.84 	190,234 	US 	Mountain View, California, US
-Samsung Electronics 	$234.13 	270,372 	South Korea 	Suwon, South Korea
-Foxconn 	$222.54 	767,062 	Taiwan 	New Taipei City, Taiwan
-Microsoft 	$198.27 	221,000 	US 	Redmond, Washington, US
-Jingdong 	$152.8 	310,000 	China 	Beijing, China
-Alibaba 	$130.35 	204,891 	China
-Cayman Islands 	Hangzhou, China & George Town, Cayman Islands
-AT&T 	$122.4 	149,900 	US 	Dallas, Texas, US
-Meta 	$116.61 	86,482 	US 	Menlo Park, California, US
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI()
+
+# Add CORS middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all origins (or specify your domain)
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "DELETE"],
+    allow_headers=["*"],
+)
