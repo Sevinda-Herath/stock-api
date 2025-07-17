@@ -122,7 +122,7 @@ for symbol, query in stock_queries.items():
     try:
         plt.figure(figsize=(6, 4))
         df["sentiment"].value_counts().plot(kind='bar', color=["green", "red", "gray"])
-        plt.title(f"Sentiment for {symbol} News (Last 7 Days, 14/Day) ")
+        plt.title(f"Sentiment for {symbol} News (Last 7 Days, 14/Day) - {date_str}")
         plt.xlabel("Sentiment")
         plt.ylabel("Number of Articles")
         plt.xticks(rotation=0)
