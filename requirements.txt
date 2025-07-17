@@ -10,3 +10,4 @@ tensorflow
 tabulate
 apscheduler
 requests
+python-dotenv

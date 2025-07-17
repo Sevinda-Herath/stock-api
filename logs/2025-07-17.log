@@ -122,3 +122,645 @@
 [02:33:30] ✅ Combined results saved to: results/2025-07-17/lstm.csv and lstm_senti.csv
 [02:33:30] 🛑 Prediction job completed.
 
+[14:55:18] 🟢 Sentiment analysis job started
+[14:55:18] 🔄 Loading FinBERT model...
+[14:55:20] ✅ FinBERT model loaded
+[14:55:20] 
+🔍 Fetching news for AMZN...
+[14:55:20] ❌ Error fetching news for AMZN on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:20] ❌ Error fetching news for AMZN on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:20] ❌ Error fetching news for AMZN on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:21] ❌ Error fetching news for AMZN on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:21] ❌ Error fetching news for AMZN on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:21] ❌ Error fetching news for AMZN on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:21] ❌ Error fetching news for AMZN on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:21] ⚠️ No valid news articles found for AMZN.
+[14:55:21] 
+🔍 Fetching news for AAPL...
+[14:55:21] ❌ Error fetching news for AAPL on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:21] ❌ Error fetching news for AAPL on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:21] ❌ Error fetching news for AAPL on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:21] ❌ Error fetching news for AAPL on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:21] ❌ Error fetching news for AAPL on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:21] ❌ Error fetching news for AAPL on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:21] ❌ Error fetching news for AAPL on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:21] ⚠️ No valid news articles found for AAPL.
+[14:55:21] 
+🔍 Fetching news for GOOGL...
+[14:55:22] ❌ Error fetching news for GOOGL on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:22] ❌ Error fetching news for GOOGL on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:22] ❌ Error fetching news for GOOGL on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:22] ❌ Error fetching news for GOOGL on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:22] ❌ Error fetching news for GOOGL on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:22] ❌ Error fetching news for GOOGL on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:22] ❌ Error fetching news for GOOGL on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:22] ⚠️ No valid news articles found for GOOGL.
+[14:55:22] 
+🔍 Fetching news for 005930.KS...
+[14:55:22] ❌ Error fetching news for 005930.KS on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:22] ❌ Error fetching news for 005930.KS on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:22] ❌ Error fetching news for 005930.KS on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ❌ Error fetching news for 005930.KS on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ❌ Error fetching news for 005930.KS on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ❌ Error fetching news for 005930.KS on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ❌ Error fetching news for 005930.KS on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ⚠️ No valid news articles found for 005930.KS.
+[14:55:23] 
+🔍 Fetching news for 2317.TW...
+[14:55:23] ❌ Error fetching news for 2317.TW on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ❌ Error fetching news for 2317.TW on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ❌ Error fetching news for 2317.TW on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ❌ Error fetching news for 2317.TW on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ❌ Error fetching news for 2317.TW on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ❌ Error fetching news for 2317.TW on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ❌ Error fetching news for 2317.TW on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ⚠️ No valid news articles found for 2317.TW.
+[14:55:23] 
+🔍 Fetching news for MSFT...
+[14:55:23] ❌ Error fetching news for MSFT on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ❌ Error fetching news for MSFT on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ❌ Error fetching news for MSFT on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ❌ Error fetching news for MSFT on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:23] ❌ Error fetching news for MSFT on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:24] ❌ Error fetching news for MSFT on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:24] ❌ Error fetching news for MSFT on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:24] ⚠️ No valid news articles found for MSFT.
+[14:55:24] 
+🔍 Fetching news for JD...
+[14:55:24] ❌ Error fetching news for JD on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:24] ❌ Error fetching news for JD on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:24] ❌ Error fetching news for JD on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:24] ❌ Error fetching news for JD on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:24] ❌ Error fetching news for JD on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:24] ❌ Error fetching news for JD on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:24] ❌ Error fetching news for JD on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:24] ⚠️ No valid news articles found for JD.
+[14:55:24] 
+🔍 Fetching news for BABA...
+[14:55:24] ❌ Error fetching news for BABA on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:24] ❌ Error fetching news for BABA on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:24] ❌ Error fetching news for BABA on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:24] ❌ Error fetching news for BABA on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:25] ❌ Error fetching news for BABA on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:25] ❌ Error fetching news for BABA on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:25] ❌ Error fetching news for BABA on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:25] ⚠️ No valid news articles found for BABA.
+[14:55:25] 
+🔍 Fetching news for T...
+[14:55:25] ❌ Error fetching news for T on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:25] ❌ Error fetching news for T on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:25] ❌ Error fetching news for T on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:25] ❌ Error fetching news for T on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:25] ❌ Error fetching news for T on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:25] ❌ Error fetching news for T on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:25] ❌ Error fetching news for T on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:25] ⚠️ No valid news articles found for T.
+[14:55:25] 
+🔍 Fetching news for META...
+[14:55:25] ❌ Error fetching news for META on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:25] ❌ Error fetching news for META on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:25] ❌ Error fetching news for META on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:26] ❌ Error fetching news for META on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:26] ❌ Error fetching news for META on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:26] ❌ Error fetching news for META on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:26] ❌ Error fetching news for META on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:55:26] ⚠️ No valid news articles found for META.
+[14:55:26] 📁 Saved summary for AMZN: sentiments/summary/2025-07-17/AMZN_summary.csv
+[14:55:26] 📁 Saved summary for AAPL: sentiments/summary/2025-07-17/AAPL_summary.csv
+[14:55:26] 📁 Saved summary for GOOGL: sentiments/summary/2025-07-17/GOOGL_summary.csv
+[14:55:26] 📁 Saved summary for 005930.KS: sentiments/summary/2025-07-17/005930.KS_summary.csv
+[14:55:26] 📁 Saved summary for 2317.TW: sentiments/summary/2025-07-17/2317.TW_summary.csv
+[14:55:26] 📁 Saved summary for MSFT: sentiments/summary/2025-07-17/MSFT_summary.csv
+[14:55:26] 📁 Saved summary for JD: sentiments/summary/2025-07-17/JD_summary.csv
+[14:55:26] 📁 Saved summary for BABA: sentiments/summary/2025-07-17/BABA_summary.csv
+[14:55:26] 📁 Saved summary for T: sentiments/summary/2025-07-17/T_summary.csv
+[14:55:26] 📁 Saved summary for META: sentiments/summary/2025-07-17/META_summary.csv
+[14:55:26] 
+📊 Combined summary saved to: sentiments/summary/2025-07-17/all_symbols_summary.csv
+[14:55:26] 
+✅ Sentiment analysis completed for all stocks on 2025-07-17
+[14:56:14] 🟢 Sentiment analysis job started
+[14:56:14] 🔄 Loading FinBERT model...
+[14:56:15] ✅ FinBERT model loaded
+[14:56:15] 
+🔍 Fetching news for AMZN...
+[14:56:15] ❌ Error fetching news for AMZN on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:15] ❌ Error fetching news for AMZN on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:15] ❌ Error fetching news for AMZN on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:16] ❌ Error fetching news for AMZN on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:16] ❌ Error fetching news for AMZN on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:16] ❌ Error fetching news for AMZN on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:16] ❌ Error fetching news for AMZN on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:16] ⚠️ No valid news articles found for AMZN.
+[14:56:16] 
+🔍 Fetching news for AAPL...
+[14:56:16] ❌ Error fetching news for AAPL on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:16] ❌ Error fetching news for AAPL on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:16] ❌ Error fetching news for AAPL on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:16] ❌ Error fetching news for AAPL on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:16] ❌ Error fetching news for AAPL on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:16] ❌ Error fetching news for AAPL on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:16] ❌ Error fetching news for AAPL on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:16] ⚠️ No valid news articles found for AAPL.
+[14:56:16] 
+🔍 Fetching news for GOOGL...
+[14:56:16] ❌ Error fetching news for GOOGL on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:16] ❌ Error fetching news for GOOGL on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:17] ❌ Error fetching news for GOOGL on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:17] ❌ Error fetching news for GOOGL on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:17] ❌ Error fetching news for GOOGL on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:17] ❌ Error fetching news for GOOGL on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:17] ❌ Error fetching news for GOOGL on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:17] ⚠️ No valid news articles found for GOOGL.
+[14:56:17] 
+🔍 Fetching news for 005930.KS...
+[14:56:17] ❌ Error fetching news for 005930.KS on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:17] ❌ Error fetching news for 005930.KS on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:17] ❌ Error fetching news for 005930.KS on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:17] ❌ Error fetching news for 005930.KS on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:17] ❌ Error fetching news for 005930.KS on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:17] ❌ Error fetching news for 005930.KS on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:18] ❌ Error fetching news for 005930.KS on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:18] ⚠️ No valid news articles found for 005930.KS.
+[14:56:18] 
+🔍 Fetching news for 2317.TW...
+[14:56:18] ❌ Error fetching news for 2317.TW on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:18] ❌ Error fetching news for 2317.TW on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:18] ❌ Error fetching news for 2317.TW on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:18] ❌ Error fetching news for 2317.TW on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:18] ❌ Error fetching news for 2317.TW on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:18] ❌ Error fetching news for 2317.TW on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:18] ❌ Error fetching news for 2317.TW on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:18] ⚠️ No valid news articles found for 2317.TW.
+[14:56:18] 
+🔍 Fetching news for MSFT...
+[14:56:18] ❌ Error fetching news for MSFT on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:18] ❌ Error fetching news for MSFT on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:18] ❌ Error fetching news for MSFT on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:18] ❌ Error fetching news for MSFT on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:18] ❌ Error fetching news for MSFT on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:18] ❌ Error fetching news for MSFT on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:19] ❌ Error fetching news for MSFT on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:19] ⚠️ No valid news articles found for MSFT.
+[14:56:19] 
+🔍 Fetching news for JD...
+[14:56:19] ❌ Error fetching news for JD on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:19] ❌ Error fetching news for JD on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:19] ❌ Error fetching news for JD on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:19] ❌ Error fetching news for JD on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:19] ❌ Error fetching news for JD on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:19] ❌ Error fetching news for JD on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:19] ❌ Error fetching news for JD on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:19] ⚠️ No valid news articles found for JD.
+[14:56:19] 
+🔍 Fetching news for BABA...
+[14:56:19] ❌ Error fetching news for BABA on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:19] ❌ Error fetching news for BABA on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:19] ❌ Error fetching news for BABA on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:19] ❌ Error fetching news for BABA on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:20] ❌ Error fetching news for BABA on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:20] ❌ Error fetching news for BABA on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:20] ❌ Error fetching news for BABA on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:20] ⚠️ No valid news articles found for BABA.
+[14:56:20] 
+🔍 Fetching news for T...
+[14:56:20] ❌ Error fetching news for T on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:20] ❌ Error fetching news for T on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:20] ❌ Error fetching news for T on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:20] ❌ Error fetching news for T on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:20] ❌ Error fetching news for T on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:20] ❌ Error fetching news for T on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:20] ❌ Error fetching news for T on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:20] ⚠️ No valid news articles found for T.
+[14:56:20] 
+🔍 Fetching news for META...
+[14:56:20] ❌ Error fetching news for META on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:20] ❌ Error fetching news for META on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:20] ❌ Error fetching news for META on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:20] ❌ Error fetching news for META on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:21] ❌ Error fetching news for META on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:21] ❌ Error fetching news for META on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:21] ❌ Error fetching news for META on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:56:21] ⚠️ No valid news articles found for META.
+[14:56:21] 📁 Saved summary for AMZN: sentiments/summary/2025-07-17/AMZN_summary.csv
+[14:56:21] 📁 Saved summary for AAPL: sentiments/summary/2025-07-17/AAPL_summary.csv
+[14:56:21] 📁 Saved summary for GOOGL: sentiments/summary/2025-07-17/GOOGL_summary.csv
+[14:56:21] 📁 Saved summary for 005930.KS: sentiments/summary/2025-07-17/005930.KS_summary.csv
+[14:56:21] 📁 Saved summary for 2317.TW: sentiments/summary/2025-07-17/2317.TW_summary.csv
+[14:56:21] 📁 Saved summary for MSFT: sentiments/summary/2025-07-17/MSFT_summary.csv
+[14:56:21] 📁 Saved summary for JD: sentiments/summary/2025-07-17/JD_summary.csv
+[14:56:21] 📁 Saved summary for BABA: sentiments/summary/2025-07-17/BABA_summary.csv
+[14:56:21] 📁 Saved summary for T: sentiments/summary/2025-07-17/T_summary.csv
+[14:56:21] 📁 Saved summary for META: sentiments/summary/2025-07-17/META_summary.csv
+[14:56:21] 
+📊 Combined summary saved to: sentiments/summary/2025-07-17/all_symbols_summary.csv
+[14:56:21] 
+✅ Sentiment analysis completed for all stocks on 2025-07-17
+[14:58:00] 🟢 Sentiment analysis job started
+[14:58:00] 🔄 Loading FinBERT model...
+[14:58:02] ✅ FinBERT model loaded
+[14:58:02] 
+🔍 Fetching news for AMZN...
+[14:58:02] ❌ Error fetching news for AMZN on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:02] ❌ Error fetching news for AMZN on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:02] ❌ Error fetching news for AMZN on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:02] ❌ Error fetching news for AMZN on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:02] ❌ Error fetching news for AMZN on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:02] ❌ Error fetching news for AMZN on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:02] ❌ Error fetching news for AMZN on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:02] ⚠️ No valid news articles found for AMZN.
+[14:58:02] 
+🔍 Fetching news for AAPL...
+[14:58:02] ❌ Error fetching news for AAPL on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:02] ❌ Error fetching news for AAPL on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:02] ❌ Error fetching news for AAPL on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:02] ❌ Error fetching news for AAPL on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:03] ❌ Error fetching news for AAPL on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:03] ❌ Error fetching news for AAPL on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:03] ❌ Error fetching news for AAPL on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:03] ⚠️ No valid news articles found for AAPL.
+[14:58:03] 
+🔍 Fetching news for GOOGL...
+[14:58:03] ❌ Error fetching news for GOOGL on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:03] ❌ Error fetching news for GOOGL on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:03] ❌ Error fetching news for GOOGL on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:03] ❌ Error fetching news for GOOGL on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:03] ❌ Error fetching news for GOOGL on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:03] ❌ Error fetching news for GOOGL on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:03] ❌ Error fetching news for GOOGL on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:03] ⚠️ No valid news articles found for GOOGL.
+[14:58:03] 
+🔍 Fetching news for 005930.KS...
+[14:58:03] ❌ Error fetching news for 005930.KS on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:04] ❌ Error fetching news for 005930.KS on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:04] ❌ Error fetching news for 005930.KS on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:04] ❌ Error fetching news for 005930.KS on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:04] ❌ Error fetching news for 005930.KS on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:04] ❌ Error fetching news for 005930.KS on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:04] ❌ Error fetching news for 005930.KS on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:04] ⚠️ No valid news articles found for 005930.KS.
+[14:58:04] 
+🔍 Fetching news for 2317.TW...
+[14:58:04] ❌ Error fetching news for 2317.TW on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:04] ❌ Error fetching news for 2317.TW on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:04] ❌ Error fetching news for 2317.TW on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:04] ❌ Error fetching news for 2317.TW on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:04] ❌ Error fetching news for 2317.TW on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:04] ❌ Error fetching news for 2317.TW on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:05] ❌ Error fetching news for 2317.TW on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:05] ⚠️ No valid news articles found for 2317.TW.
+[14:58:05] 
+🔍 Fetching news for MSFT...
+[14:58:05] ❌ Error fetching news for MSFT on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:05] ❌ Error fetching news for MSFT on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:05] ❌ Error fetching news for MSFT on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:05] ❌ Error fetching news for MSFT on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:05] ❌ Error fetching news for MSFT on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:05] ❌ Error fetching news for MSFT on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:05] ❌ Error fetching news for MSFT on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:05] ⚠️ No valid news articles found for MSFT.
+[14:58:05] 
+🔍 Fetching news for JD...
+[14:58:05] ❌ Error fetching news for JD on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:05] ❌ Error fetching news for JD on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:05] ❌ Error fetching news for JD on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:05] ❌ Error fetching news for JD on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:05] ❌ Error fetching news for JD on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:06] ❌ Error fetching news for JD on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:06] ❌ Error fetching news for JD on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:06] ⚠️ No valid news articles found for JD.
+[14:58:06] 
+🔍 Fetching news for BABA...
+[14:58:06] ❌ Error fetching news for BABA on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:06] ❌ Error fetching news for BABA on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:06] ❌ Error fetching news for BABA on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:06] ❌ Error fetching news for BABA on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:06] ❌ Error fetching news for BABA on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:06] ❌ Error fetching news for BABA on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:06] ❌ Error fetching news for BABA on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:06] ⚠️ No valid news articles found for BABA.
+[14:58:06] 
+🔍 Fetching news for T...
+[14:58:06] ❌ Error fetching news for T on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:06] ❌ Error fetching news for T on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:06] ❌ Error fetching news for T on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:06] ❌ Error fetching news for T on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:06] ❌ Error fetching news for T on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:06] ❌ Error fetching news for T on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:07] ❌ Error fetching news for T on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:07] ⚠️ No valid news articles found for T.
+[14:58:07] 
+🔍 Fetching news for META...
+[14:58:07] ❌ Error fetching news for META on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:07] ❌ Error fetching news for META on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:07] ❌ Error fetching news for META on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:07] ❌ Error fetching news for META on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:07] ❌ Error fetching news for META on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:07] ❌ Error fetching news for META on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:07] ❌ Error fetching news for META on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:58:07] ⚠️ No valid news articles found for META.
+[14:58:07] 📁 Saved summary for AMZN: sentiments/summary/2025-07-17/AMZN_summary.csv
+[14:58:07] 📁 Saved summary for AAPL: sentiments/summary/2025-07-17/AAPL_summary.csv
+[14:58:07] 📁 Saved summary for GOOGL: sentiments/summary/2025-07-17/GOOGL_summary.csv
+[14:58:07] 📁 Saved summary for 005930.KS: sentiments/summary/2025-07-17/005930.KS_summary.csv
+[14:58:07] 📁 Saved summary for 2317.TW: sentiments/summary/2025-07-17/2317.TW_summary.csv
+[14:58:07] 📁 Saved summary for MSFT: sentiments/summary/2025-07-17/MSFT_summary.csv
+[14:58:07] 📁 Saved summary for JD: sentiments/summary/2025-07-17/JD_summary.csv
+[14:58:07] 📁 Saved summary for BABA: sentiments/summary/2025-07-17/BABA_summary.csv
+[14:58:07] 📁 Saved summary for T: sentiments/summary/2025-07-17/T_summary.csv
+[14:58:07] 📁 Saved summary for META: sentiments/summary/2025-07-17/META_summary.csv
+[14:58:07] 
+📊 Combined summary saved to: sentiments/summary/2025-07-17/all_symbols_summary.csv
+[14:58:07] 
+✅ Sentiment analysis completed for all stocks on 2025-07-17
+[14:59:34] 🟢 Sentiment analysis job started
+[14:59:34] 🔄 Loading FinBERT model...
+[14:59:35] ✅ FinBERT model loaded
+[14:59:35] 
+🔍 Fetching news for AMZN...
+[14:59:35] ❌ Error fetching news for AMZN on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:35] ❌ Error fetching news for AMZN on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:35] ❌ Error fetching news for AMZN on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:36] ❌ Error fetching news for AMZN on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:36] ❌ Error fetching news for AMZN on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:36] ❌ Error fetching news for AMZN on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:36] ❌ Error fetching news for AMZN on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:36] ⚠️ No valid news articles found for AMZN.
+[14:59:36] 
+🔍 Fetching news for AAPL...
+[14:59:36] ❌ Error fetching news for AAPL on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:36] ❌ Error fetching news for AAPL on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:36] ❌ Error fetching news for AAPL on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:36] ❌ Error fetching news for AAPL on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:36] ❌ Error fetching news for AAPL on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:36] ❌ Error fetching news for AAPL on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:36] ❌ Error fetching news for AAPL on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:36] ⚠️ No valid news articles found for AAPL.
+[14:59:36] 
+🔍 Fetching news for GOOGL...
+[14:59:37] ❌ Error fetching news for GOOGL on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:37] ❌ Error fetching news for GOOGL on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:37] ❌ Error fetching news for GOOGL on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:37] ❌ Error fetching news for GOOGL on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:37] ❌ Error fetching news for GOOGL on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:37] ❌ Error fetching news for GOOGL on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:37] ❌ Error fetching news for GOOGL on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:37] ⚠️ No valid news articles found for GOOGL.
+[14:59:37] 
+🔍 Fetching news for 005930.KS...
+[14:59:37] ❌ Error fetching news for 005930.KS on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:37] ❌ Error fetching news for 005930.KS on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:37] ❌ Error fetching news for 005930.KS on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:37] ❌ Error fetching news for 005930.KS on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:37] ❌ Error fetching news for 005930.KS on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:38] ❌ Error fetching news for 005930.KS on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:38] ❌ Error fetching news for 005930.KS on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:38] ⚠️ No valid news articles found for 005930.KS.
+[14:59:38] 
+🔍 Fetching news for 2317.TW...
+[14:59:38] ❌ Error fetching news for 2317.TW on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:38] ❌ Error fetching news for 2317.TW on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:38] ❌ Error fetching news for 2317.TW on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:38] ❌ Error fetching news for 2317.TW on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:38] ❌ Error fetching news for 2317.TW on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:38] ❌ Error fetching news for 2317.TW on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:38] ❌ Error fetching news for 2317.TW on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:38] ⚠️ No valid news articles found for 2317.TW.
+[14:59:38] 
+🔍 Fetching news for MSFT...
+[14:59:38] ❌ Error fetching news for MSFT on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:38] ❌ Error fetching news for MSFT on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:38] ❌ Error fetching news for MSFT on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:38] ❌ Error fetching news for MSFT on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:38] ❌ Error fetching news for MSFT on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:38] ❌ Error fetching news for MSFT on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:39] ❌ Error fetching news for MSFT on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:39] ⚠️ No valid news articles found for MSFT.
+[14:59:39] 
+🔍 Fetching news for JD...
+[14:59:39] ❌ Error fetching news for JD on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:39] ❌ Error fetching news for JD on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:39] ❌ Error fetching news for JD on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:39] ❌ Error fetching news for JD on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:39] ❌ Error fetching news for JD on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:39] ❌ Error fetching news for JD on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:39] ❌ Error fetching news for JD on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:39] ⚠️ No valid news articles found for JD.
+[14:59:39] 
+🔍 Fetching news for BABA...
+[14:59:39] ❌ Error fetching news for BABA on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:39] ❌ Error fetching news for BABA on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:39] ❌ Error fetching news for BABA on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:39] ❌ Error fetching news for BABA on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:39] ❌ Error fetching news for BABA on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:40] ❌ Error fetching news for BABA on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:40] ❌ Error fetching news for BABA on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:40] ⚠️ No valid news articles found for BABA.
+[14:59:40] 
+🔍 Fetching news for T...
+[14:59:40] ❌ Error fetching news for T on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:40] ❌ Error fetching news for T on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:40] ❌ Error fetching news for T on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:40] ❌ Error fetching news for T on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:40] ❌ Error fetching news for T on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:40] ❌ Error fetching news for T on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:40] ❌ Error fetching news for T on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:40] ⚠️ No valid news articles found for T.
+[14:59:40] 
+🔍 Fetching news for META...
+[14:59:40] ❌ Error fetching news for META on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:40] ❌ Error fetching news for META on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:40] ❌ Error fetching news for META on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:40] ❌ Error fetching news for META on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:41] ❌ Error fetching news for META on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:41] ❌ Error fetching news for META on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:41] ❌ Error fetching news for META on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[14:59:41] ⚠️ No valid news articles found for META.
+[14:59:41] 📁 Saved summary for AMZN: sentiments/summary/2025-07-17/AMZN_summary.csv
+[14:59:41] 📁 Saved summary for AAPL: sentiments/summary/2025-07-17/AAPL_summary.csv
+[14:59:41] 📁 Saved summary for GOOGL: sentiments/summary/2025-07-17/GOOGL_summary.csv
+[14:59:41] 📁 Saved summary for 005930.KS: sentiments/summary/2025-07-17/005930.KS_summary.csv
+[14:59:41] 📁 Saved summary for 2317.TW: sentiments/summary/2025-07-17/2317.TW_summary.csv
+[14:59:41] 📁 Saved summary for MSFT: sentiments/summary/2025-07-17/MSFT_summary.csv
+[14:59:41] 📁 Saved summary for JD: sentiments/summary/2025-07-17/JD_summary.csv
+[14:59:41] 📁 Saved summary for BABA: sentiments/summary/2025-07-17/BABA_summary.csv
+[14:59:41] 📁 Saved summary for T: sentiments/summary/2025-07-17/T_summary.csv
+[14:59:41] 📁 Saved summary for META: sentiments/summary/2025-07-17/META_summary.csv
+[14:59:41] 
+📊 Combined summary saved to: sentiments/summary/2025-07-17/all_symbols_summary.csv
+[14:59:41] 
+✅ Sentiment analysis completed for all stocks on 2025-07-17
+[15:00:19] 🟢 Sentiment analysis job started
+[15:00:19] 🔄 Loading FinBERT model...
+[15:00:21] ✅ FinBERT model loaded
+[15:00:21] 
+🔍 Fetching news for AMZN...
+[15:00:21] ❌ Error fetching news for AMZN on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:21] ❌ Error fetching news for AMZN on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:21] ❌ Error fetching news for AMZN on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:21] ❌ Error fetching news for AMZN on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:21] ❌ Error fetching news for AMZN on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:21] ❌ Error fetching news for AMZN on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:21] ❌ Error fetching news for AMZN on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Amazon&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:21] ⚠️ No valid news articles found for AMZN.
+[15:00:21] 
+🔍 Fetching news for AAPL...
+[15:00:21] ❌ Error fetching news for AAPL on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:21] ❌ Error fetching news for AAPL on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:22] ❌ Error fetching news for AAPL on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:22] ❌ Error fetching news for AAPL on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:22] ❌ Error fetching news for AAPL on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:22] ❌ Error fetching news for AAPL on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:22] ❌ Error fetching news for AAPL on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Apple&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:22] ⚠️ No valid news articles found for AAPL.
+[15:00:22] 
+🔍 Fetching news for GOOGL...
+[15:00:22] ❌ Error fetching news for GOOGL on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:22] ❌ Error fetching news for GOOGL on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:22] ❌ Error fetching news for GOOGL on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:22] ❌ Error fetching news for GOOGL on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:22] ❌ Error fetching news for GOOGL on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:22] ❌ Error fetching news for GOOGL on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:22] ❌ Error fetching news for GOOGL on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Google&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:22] ⚠️ No valid news articles found for GOOGL.
+[15:00:22] 
+🔍 Fetching news for 005930.KS...
+[15:00:22] ❌ Error fetching news for 005930.KS on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:23] ❌ Error fetching news for 005930.KS on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:23] ❌ Error fetching news for 005930.KS on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:23] ❌ Error fetching news for 005930.KS on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:23] ❌ Error fetching news for 005930.KS on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:23] ❌ Error fetching news for 005930.KS on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:23] ❌ Error fetching news for 005930.KS on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Samsung&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:23] ⚠️ No valid news articles found for 005930.KS.
+[15:00:23] 
+🔍 Fetching news for 2317.TW...
+[15:00:23] ❌ Error fetching news for 2317.TW on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:23] ❌ Error fetching news for 2317.TW on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:23] ❌ Error fetching news for 2317.TW on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:23] ❌ Error fetching news for 2317.TW on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:23] ❌ Error fetching news for 2317.TW on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:23] ❌ Error fetching news for 2317.TW on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:24] ❌ Error fetching news for 2317.TW on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:24] ⚠️ No valid news articles found for 2317.TW.
+[15:00:24] 
+🔍 Fetching news for MSFT...
+[15:00:24] ❌ Error fetching news for MSFT on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:24] ❌ Error fetching news for MSFT on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:24] ❌ Error fetching news for MSFT on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:24] ❌ Error fetching news for MSFT on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:24] ❌ Error fetching news for MSFT on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:24] ❌ Error fetching news for MSFT on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:24] ❌ Error fetching news for MSFT on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:24] ⚠️ No valid news articles found for MSFT.
+[15:00:24] 
+🔍 Fetching news for JD...
+[15:00:24] ❌ Error fetching news for JD on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:24] ❌ Error fetching news for JD on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:24] ❌ Error fetching news for JD on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:24] ❌ Error fetching news for JD on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:25] ❌ Error fetching news for JD on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:25] ❌ Error fetching news for JD on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:25] ❌ Error fetching news for JD on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:25] ⚠️ No valid news articles found for JD.
+[15:00:25] 
+🔍 Fetching news for BABA...
+[15:00:25] ❌ Error fetching news for BABA on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:25] ❌ Error fetching news for BABA on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:25] ❌ Error fetching news for BABA on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:25] ❌ Error fetching news for BABA on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:25] ❌ Error fetching news for BABA on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:25] ❌ Error fetching news for BABA on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:25] ❌ Error fetching news for BABA on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:25] ⚠️ No valid news articles found for BABA.
+[15:00:25] 
+🔍 Fetching news for T...
+[15:00:25] ❌ Error fetching news for T on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:25] ❌ Error fetching news for T on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:25] ❌ Error fetching news for T on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:25] ❌ Error fetching news for T on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:26] ❌ Error fetching news for T on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:26] ❌ Error fetching news for T on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:26] ❌ Error fetching news for T on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:26] ⚠️ No valid news articles found for T.
+[15:00:26] 
+🔍 Fetching news for META...
+[15:00:26] ❌ Error fetching news for META on 2025-07-17: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-17&to=2025-07-17%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:26] ❌ Error fetching news for META on 2025-07-16: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-16&to=2025-07-16%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:26] ❌ Error fetching news for META on 2025-07-15: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-15&to=2025-07-15%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:26] ❌ Error fetching news for META on 2025-07-14: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-14&to=2025-07-14%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:26] ❌ Error fetching news for META on 2025-07-13: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-13&to=2025-07-13%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:26] ❌ Error fetching news for META on 2025-07-12: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-12&to=2025-07-12%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:26] ❌ Error fetching news for META on 2025-07-11: 401 Client Error: Unauthorized for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-11&to=2025-07-11%20-%202025-07-17&sortBy=publishedAt&pageSize=14&apiKey=None&language=en
+[15:00:26] ⚠️ No valid news articles found for META.
+[15:00:26] 📁 Saved summary for AMZN: sentiments/summary/2025-07-17/AMZN_summary.csv
+[15:00:26] 📁 Saved summary for AAPL: sentiments/summary/2025-07-17/AAPL_summary.csv
+[15:00:26] 📁 Saved summary for GOOGL: sentiments/summary/2025-07-17/GOOGL_summary.csv
+[15:00:26] 📁 Saved summary for 005930.KS: sentiments/summary/2025-07-17/005930.KS_summary.csv
+[15:00:26] 📁 Saved summary for 2317.TW: sentiments/summary/2025-07-17/2317.TW_summary.csv
+[15:00:26] 📁 Saved summary for MSFT: sentiments/summary/2025-07-17/MSFT_summary.csv
+[15:00:26] 📁 Saved summary for JD: sentiments/summary/2025-07-17/JD_summary.csv
+[15:00:26] 📁 Saved summary for BABA: sentiments/summary/2025-07-17/BABA_summary.csv
+[15:00:26] 📁 Saved summary for T: sentiments/summary/2025-07-17/T_summary.csv
+[15:00:26] 📁 Saved summary for META: sentiments/summary/2025-07-17/META_summary.csv
+[15:00:26] 
+📊 Combined summary saved to: sentiments/summary/2025-07-17/all_symbols_summary.csv
+[15:00:26] 
+✅ Sentiment analysis completed for all stocks on 2025-07-17
+[15:03:11] 🟢 Sentiment analysis job started
+[15:03:11] 🔄 Loading FinBERT model...
+[15:03:13] ✅ FinBERT model loaded
+[15:03:13] 
+🔍 Fetching news for AMZN...
+[15:03:30] ✅ Saved sentiment CSV: sentiments/sentiment/2025-07-17/AMZN_sentiment.csv
+[15:03:30] 📊 Saved chart: sentiments/charts/2025-07-17/AMZN_chart.png
+[15:03:30] 
+🔍 Fetching news for AAPL...
+[15:03:50] ✅ Saved sentiment CSV: sentiments/sentiment/2025-07-17/AAPL_sentiment.csv
+[15:03:50] 📊 Saved chart: sentiments/charts/2025-07-17/AAPL_chart.png
+[15:03:50] 
+🔍 Fetching news for GOOGL...
+[15:04:05] ✅ Saved sentiment CSV: sentiments/sentiment/2025-07-17/GOOGL_sentiment.csv
+[15:04:05] 📊 Saved chart: sentiments/charts/2025-07-17/GOOGL_chart.png
+[15:04:05] 
+🔍 Fetching news for 005930.KS...
+[15:04:23] ✅ Saved sentiment CSV: sentiments/sentiment/2025-07-17/005930.KS_sentiment.csv
+[15:04:23] 📊 Saved chart: sentiments/charts/2025-07-17/005930.KS_chart.png
+[15:04:23] 
+🔍 Fetching news for 2317.TW...
+[15:04:39] ✅ Saved sentiment CSV: sentiments/sentiment/2025-07-17/2317.TW_sentiment.csv
+[15:04:39] 📊 Saved chart: sentiments/charts/2025-07-17/2317.TW_chart.png
+[15:04:39] 
+🔍 Fetching news for MSFT...
+[15:04:58] ✅ Saved sentiment CSV: sentiments/sentiment/2025-07-17/MSFT_sentiment.csv
+[15:04:58] 📊 Saved chart: sentiments/charts/2025-07-17/MSFT_chart.png
+[15:04:58] 
+🔍 Fetching news for JD...
+[15:05:16] ✅ Saved sentiment CSV: sentiments/sentiment/2025-07-17/JD_sentiment.csv
+[15:05:16] 📊 Saved chart: sentiments/charts/2025-07-17/JD_chart.png
+[15:05:16] 
+🔍 Fetching news for BABA...
+[15:05:32] ✅ Saved sentiment CSV: sentiments/sentiment/2025-07-17/BABA_sentiment.csv
+[15:05:33] 📊 Saved chart: sentiments/charts/2025-07-17/BABA_chart.png
+[15:05:33] 
+🔍 Fetching news for T...
+[15:05:51] ✅ Saved sentiment CSV: sentiments/sentiment/2025-07-17/T_sentiment.csv
+[15:05:51] 📊 Saved chart: sentiments/charts/2025-07-17/T_chart.png
+[15:05:51] 
+🔍 Fetching news for META...
+[15:06:08] ✅ Saved sentiment CSV: sentiments/sentiment/2025-07-17/META_sentiment.csv
+[15:06:08] 📊 Saved chart: sentiments/charts/2025-07-17/META_chart.png
+[15:06:09] 📁 Saved summary for AMZN: sentiments/summary/2025-07-17/AMZN_summary.csv
+[15:06:09] 📁 Saved summary for AAPL: sentiments/summary/2025-07-17/AAPL_summary.csv
+[15:06:09] 📁 Saved summary for GOOGL: sentiments/summary/2025-07-17/GOOGL_summary.csv
+[15:06:09] 📁 Saved summary for 005930.KS: sentiments/summary/2025-07-17/005930.KS_summary.csv
+[15:06:09] 📁 Saved summary for 2317.TW: sentiments/summary/2025-07-17/2317.TW_summary.csv
+[15:06:09] 📁 Saved summary for MSFT: sentiments/summary/2025-07-17/MSFT_summary.csv
+[15:06:09] 📁 Saved summary for JD: sentiments/summary/2025-07-17/JD_summary.csv
+[15:06:09] 📁 Saved summary for BABA: sentiments/summary/2025-07-17/BABA_summary.csv
+[15:06:09] 📁 Saved summary for T: sentiments/summary/2025-07-17/T_summary.csv
+[15:06:09] 📁 Saved summary for META: sentiments/summary/2025-07-17/META_summary.csv
+[15:06:09] 
+📊 Combined summary saved to: sentiments/summary/2025-07-17/all_symbols_summary.csv
+[15:06:09] 
+✅ Sentiment analysis completed for all stocks on 2025-07-17

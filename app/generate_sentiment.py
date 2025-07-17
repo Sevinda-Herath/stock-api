@@ -5,10 +5,19 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipe
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 import re
+from dotenv import load_dotenv
+
+load_dotenv(dotenv_path="/home/stock-api/.env.settings")
 
 # === Configuration Section ===
-NEWS_API_KEY = 'e919ab46c14647178653af10ff791729'
-date_str = datetime.today().strftime('%Y-%m-%d')
+ 
+NEWS_API_KEY = os.getenv("API_KEY")
+
+def get_current_date():
+    """Always return the current date to avoid caching issues"""
+    return datetime.today().strftime('%Y-%m-%d')
+
+date_str = get_current_date()
 
 # Output directories
 sentiment_dir = os.path.join("sentiments/sentiment", date_str)
@@ -66,7 +75,7 @@ for symbol, query in stock_queries.items():
         day = datetime.today() - timedelta(days=i)
         day_str = day.strftime('%Y-%m-%d')
         url = (
-            f"https://newsapi.org/v2/everything?q={query}&from={day_str}&to={day_str}"
+            f"https://newsapi.org/v2/everything?q={query}&from={day_str}&to={day_str} - {date_str}"
             f"&sortBy=publishedAt&pageSize=14&apiKey={NEWS_API_KEY}&language=en"
         )
 
@@ -113,7 +122,7 @@ for symbol, query in stock_queries.items():
     try:
         plt.figure(figsize=(6, 4))
         df["sentiment"].value_counts().plot(kind='bar', color=["green", "red", "gray"])
-        plt.title(f"Sentiment for {symbol} News (Last 7 Days, 14/Day)")
+        plt.title(f"Sentiment for {symbol} News (Last 7 Days, 14/Day) ")
         plt.xlabel("Sentiment")
         plt.ylabel("Number of Articles")
         plt.xticks(rotation=0)
@@ -143,7 +152,7 @@ for symbol in stock_queries:
     avg_confidence = df.groupby("sentiment")["confidence"].mean().to_dict()
 
     summary_data = {
-        "date_collected": date_str,
+        "date_collected": get_current_date(),
         "symbol": symbol,
         "total_articles": len(df),
         "positive_count": sentiment_counts.get("positive", 0),
@@ -170,4 +179,4 @@ else:
     log("⚠️ No data available to write combined summary.")
 
 # === Final Log Message ===
-log(f"\n✅ Sentiment analysis completed for all stocks on {date_str}")
+log(f"\n✅ Sentiment analysis completed for all stocks on {get_current_date()}")

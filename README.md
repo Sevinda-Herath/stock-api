@@ -259,10 +259,6 @@ For issues and questions:
 ## 🔗 API Keys
 
 The application uses News API for sentiment analysis. API keys are referenced in the code but should be configured as environment variables in production.
-
-- e3762f837b5d4677a8fc78db2fdc0d2f 
-- e919ab46c14647178653af10ff791729 
-- 2bd503cf35c849459ed32a970d95a52e
 ---
 
 **Note**: This API is for educational and research purposes. Always consult with financial professionals before making investment decisions.
