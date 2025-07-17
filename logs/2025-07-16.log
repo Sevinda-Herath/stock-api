@@ -1,0 +1,159 @@
+[02:30:01] 🟢 Dataset download started
+[02:30:01] ⬇️ Downloading data for AMZN...
+[02:30:02] ✅ Saved AMZN to datasets/AMZN_daily_data.csv
+[02:30:02] ⬇️ Downloading data for AAPL...
+[02:30:02] ✅ Saved AAPL to datasets/AAPL_daily_data.csv
+[02:30:02] ⬇️ Downloading data for GOOGL...
+[02:30:03] ✅ Saved GOOGL to datasets/GOOGL_daily_data.csv
+[02:30:03] ⬇️ Downloading data for 005930.KS...
+[02:30:03] ✅ Saved 005930.KS to datasets/005930.KS_daily_data.csv
+[02:30:03] ⬇️ Downloading data for 2317.TW...
+[02:30:04] ✅ Saved 2317.TW to datasets/2317.TW_daily_data.csv
+[02:30:04] ⬇️ Downloading data for MSFT...
+[02:30:04] ✅ Saved MSFT to datasets/MSFT_daily_data.csv
+[02:30:04] ⬇️ Downloading data for JD...
+[02:30:05] ✅ Saved JD to datasets/JD_daily_data.csv
+[02:30:05] ⬇️ Downloading data for BABA...
+[02:30:05] ✅ Saved BABA to datasets/BABA_daily_data.csv
+[02:30:05] ⬇️ Downloading data for T...
+[02:30:06] ✅ Saved T to datasets/T_daily_data.csv
+[02:30:06] ⬇️ Downloading data for META...
+[02:30:06] ✅ Saved META to datasets/META_daily_data.csv
+[02:30:06] 🧹 Cleaned first row in: datasets/AMZN_daily_data.csv
+[02:30:06] 🧹 Cleaned first row in: datasets/AAPL_daily_data.csv
+[02:30:06] 🧹 Cleaned first row in: datasets/GOOGL_daily_data.csv
+[02:30:06] 🧹 Cleaned first row in: datasets/005930.KS_daily_data.csv
+[02:30:06] 🧹 Cleaned first row in: datasets/2317.TW_daily_data.csv
+[02:30:06] 🧹 Cleaned first row in: datasets/MSFT_daily_data.csv
+[02:30:07] 🧹 Cleaned first row in: datasets/JD_daily_data.csv
+[02:30:07] 🧹 Cleaned first row in: datasets/BABA_daily_data.csv
+[02:30:07] 🧹 Cleaned first row in: datasets/T_daily_data.csv
+[02:30:07] 🧹 Cleaned first row in: datasets/META_daily_data.csv
+[02:30:07] ✅ Dataset download completed
+
+[02:30:27] 🟢 Sentiment analysis job started
+[02:30:27] 🔄 Loading FinBERT model...
+[02:30:33] ✅ FinBERT model loaded
+[02:30:33] 
+🔍 Fetching news for AMZN...
+[02:30:55] ✅ Saved sentiment CSV: sentiments/sentiment/2025-07-16/AMZN_sentiment.csv
+[02:30:55] 📊 Saved chart: sentiments/charts/2025-07-16/AMZN_chart.png
+[02:30:55] 
+🔍 Fetching news for AAPL...
+[02:31:13] ✅ Saved sentiment CSV: sentiments/sentiment/2025-07-16/AAPL_sentiment.csv
+[02:31:13] 📊 Saved chart: sentiments/charts/2025-07-16/AAPL_chart.png
+[02:31:13] 
+🔍 Fetching news for GOOGL...
+[02:31:32] ✅ Saved sentiment CSV: sentiments/sentiment/2025-07-16/GOOGL_sentiment.csv
+[02:31:32] 📊 Saved chart: sentiments/charts/2025-07-16/GOOGL_chart.png
+[02:31:32] 
+🔍 Fetching news for 005930.KS...
+[02:31:50] ✅ Saved sentiment CSV: sentiments/sentiment/2025-07-16/005930.KS_sentiment.csv
+[02:31:50] 📊 Saved chart: sentiments/charts/2025-07-16/005930.KS_chart.png
+[02:31:50] 
+🔍 Fetching news for 2317.TW...
+[02:31:51] ❌ Error fetching news for 2317.TW on 2025-07-14: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-14&to=2025-07-14&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:51] ❌ Error fetching news for 2317.TW on 2025-07-13: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-13&to=2025-07-13&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:51] ❌ Error fetching news for 2317.TW on 2025-07-12: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-12&to=2025-07-12&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:51] ❌ Error fetching news for 2317.TW on 2025-07-11: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-11&to=2025-07-11&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:51] ❌ Error fetching news for 2317.TW on 2025-07-10: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Foxconn%20&from=2025-07-10&to=2025-07-10&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:54] ✅ Saved sentiment CSV: sentiments/sentiment/2025-07-16/2317.TW_sentiment.csv
+[02:31:54] 📊 Saved chart: sentiments/charts/2025-07-16/2317.TW_chart.png
+[02:31:54] 
+🔍 Fetching news for MSFT...
+[02:31:54] ❌ Error fetching news for MSFT on 2025-07-16: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-16&to=2025-07-16&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:54] ❌ Error fetching news for MSFT on 2025-07-15: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-15&to=2025-07-15&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:54] ❌ Error fetching news for MSFT on 2025-07-14: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-14&to=2025-07-14&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:54] ❌ Error fetching news for MSFT on 2025-07-13: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-13&to=2025-07-13&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:55] ❌ Error fetching news for MSFT on 2025-07-12: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-12&to=2025-07-12&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:55] ❌ Error fetching news for MSFT on 2025-07-11: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-11&to=2025-07-11&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:55] ❌ Error fetching news for MSFT on 2025-07-10: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Microsoft&from=2025-07-10&to=2025-07-10&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:55] ⚠️ No valid news articles found for MSFT.
+[02:31:55] 
+🔍 Fetching news for JD...
+[02:31:55] ❌ Error fetching news for JD on 2025-07-16: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-16&to=2025-07-16&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:55] ❌ Error fetching news for JD on 2025-07-15: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-15&to=2025-07-15&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:55] ❌ Error fetching news for JD on 2025-07-14: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-14&to=2025-07-14&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:55] ❌ Error fetching news for JD on 2025-07-13: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-13&to=2025-07-13&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:55] ❌ Error fetching news for JD on 2025-07-12: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-12&to=2025-07-12&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:55] ❌ Error fetching news for JD on 2025-07-11: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-11&to=2025-07-11&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:55] ❌ Error fetching news for JD on 2025-07-10: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=JD.com&from=2025-07-10&to=2025-07-10&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:55] ⚠️ No valid news articles found for JD.
+[02:31:55] 
+🔍 Fetching news for BABA...
+[02:31:56] ❌ Error fetching news for BABA on 2025-07-16: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-16&to=2025-07-16&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:56] ❌ Error fetching news for BABA on 2025-07-15: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-15&to=2025-07-15&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:56] ❌ Error fetching news for BABA on 2025-07-14: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-14&to=2025-07-14&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:56] ❌ Error fetching news for BABA on 2025-07-13: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-13&to=2025-07-13&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:56] ❌ Error fetching news for BABA on 2025-07-12: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-12&to=2025-07-12&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:56] ❌ Error fetching news for BABA on 2025-07-11: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-11&to=2025-07-11&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:56] ❌ Error fetching news for BABA on 2025-07-10: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Alibaba&from=2025-07-10&to=2025-07-10&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:56] ⚠️ No valid news articles found for BABA.
+[02:31:56] 
+🔍 Fetching news for T...
+[02:31:56] ❌ Error fetching news for T on 2025-07-16: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-16&to=2025-07-16&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:56] ❌ Error fetching news for T on 2025-07-15: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-15&to=2025-07-15&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:56] ❌ Error fetching news for T on 2025-07-14: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-14&to=2025-07-14&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:56] ❌ Error fetching news for T on 2025-07-13: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-13&to=2025-07-13&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:56] ❌ Error fetching news for T on 2025-07-12: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-12&to=2025-07-12&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:57] ❌ Error fetching news for T on 2025-07-11: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-11&to=2025-07-11&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:57] ❌ Error fetching news for T on 2025-07-10: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=AT&T&from=2025-07-10&to=2025-07-10&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:57] ⚠️ No valid news articles found for T.
+[02:31:57] 
+🔍 Fetching news for META...
+[02:31:57] ❌ Error fetching news for META on 2025-07-16: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-16&to=2025-07-16&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:57] ❌ Error fetching news for META on 2025-07-15: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-15&to=2025-07-15&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:57] ❌ Error fetching news for META on 2025-07-14: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-14&to=2025-07-14&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:57] ❌ Error fetching news for META on 2025-07-13: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-13&to=2025-07-13&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:57] ❌ Error fetching news for META on 2025-07-12: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-12&to=2025-07-12&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:57] ❌ Error fetching news for META on 2025-07-11: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-11&to=2025-07-11&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:57] ❌ Error fetching news for META on 2025-07-10: 429 Client Error:  for url: https://newsapi.org/v2/everything?q=Meta&from=2025-07-10&to=2025-07-10&sortBy=publishedAt&pageSize=14&apiKey=e919ab46c14647178653af10ff791729&language=en
+[02:31:57] ⚠️ No valid news articles found for META.
+[02:31:57] 📁 Saved summary for AMZN: sentiments/summary/2025-07-16/AMZN_summary.csv
+[02:31:57] 📁 Saved summary for AAPL: sentiments/summary/2025-07-16/AAPL_summary.csv
+[02:31:57] 📁 Saved summary for GOOGL: sentiments/summary/2025-07-16/GOOGL_summary.csv
+[02:31:57] 📁 Saved summary for 005930.KS: sentiments/summary/2025-07-16/005930.KS_summary.csv
+[02:31:57] 📁 Saved summary for 2317.TW: sentiments/summary/2025-07-16/2317.TW_summary.csv
+[02:31:57] ⚠️ Missing sentiment file for MSFT, skipping summary
+[02:31:57] ⚠️ Missing sentiment file for JD, skipping summary
+[02:31:57] ⚠️ Missing sentiment file for BABA, skipping summary
+[02:31:57] ⚠️ Missing sentiment file for T, skipping summary
+[02:31:57] ⚠️ Missing sentiment file for META, skipping summary
+[02:31:57] 
+📊 Combined summary saved to: sentiments/summary/2025-07-16/all_symbols_summary.csv
+[02:31:57] 
+✅ Sentiment analysis completed for all stocks on 2025-07-16
+[02:32:01] 🟢 Prediction job started for 2025-07-16
+[02:32:01] 🔍 Predicting AMZN...
+[02:32:11] ✅ AMZN LSTM Prediction: $223.72
+[02:32:12] ✅ AMZN LSTM+Sentiment Prediction: $224.17
+[02:32:12] 🔍 Predicting AAPL...
+[02:32:13] ✅ AAPL LSTM Prediction: $208.97
+[02:32:13] ✅ AAPL LSTM+Sentiment Prediction: $208.64
+[02:32:13] 🔍 Predicting GOOGL...
+[02:32:14] ✅ GOOGL LSTM Prediction: $181.60
+[02:32:15] ✅ GOOGL LSTM+Sentiment Prediction: $180.64
+[02:32:15] 🔍 Predicting 005930.KS...
+[02:32:16] ✅ 005930.KS LSTM Prediction: $63334.27
+[02:32:16] ✅ 005930.KS LSTM+Sentiment Prediction: $63655.46
+[02:32:16] 🔍 Predicting 2317.TW...
+[02:32:17] ✅ 2317.TW LSTM Prediction: $162.52
+[02:32:18] ✅ 2317.TW LSTM+Sentiment Prediction: $163.32
+[02:32:18] 🔍 Predicting MSFT...
+[02:32:18] ✅ MSFT LSTM Prediction: $493.31
+[02:32:18] ❌ MSFT LSTM+Sentiment Error: Sentiment file not found: sentiments/sentiment/2025-07-16/MSFT_sentiment.csv
+[02:32:18] 🔍 Predicting JD...
+[02:32:19] ✅ JD LSTM Prediction: $31.65
+[02:32:19] ❌ JD LSTM+Sentiment Error: Sentiment file not found: sentiments/sentiment/2025-07-16/JD_sentiment.csv
+[02:32:19] 🔍 Predicting BABA...
+[02:32:20] ✅ BABA LSTM Prediction: $113.52
+[02:32:20] ❌ BABA LSTM+Sentiment Error: Sentiment file not found: sentiments/sentiment/2025-07-16/BABA_sentiment.csv
+[02:32:20] 🔍 Predicting T...
+[02:32:20] ✅ T LSTM Prediction: $26.92
+[02:32:20] ❌ T LSTM+Sentiment Error: Sentiment file not found: sentiments/sentiment/2025-07-16/T_sentiment.csv
+[02:32:20] 🔍 Predicting META...
+[02:32:21] ✅ META LSTM Prediction: $712.19
+[02:32:21] ❌ META LSTM+Sentiment Error: Sentiment file not found: sentiments/sentiment/2025-07-16/META_sentiment.csv
+[02:32:21] ✅ Combined results saved to: results/2025-07-16/lstm.csv and lstm_senti.csv
+[02:32:21] 🛑 Prediction job completed.
+

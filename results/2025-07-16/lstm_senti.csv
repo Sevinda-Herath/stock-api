@@ -1,0 +1,11 @@
+symbol,predicted_price,date,error
+AMZN,224.1699981689453,2025-07-16,
+AAPL,208.63999938964844,2025-07-16,
+GOOGL,180.63999938964844,2025-07-16,
+005930.KS,63655.4609375,2025-07-16,
+2317.TW,163.32000732421875,2025-07-16,
+MSFT,,2025-07-16,Sentiment file not found: sentiments/sentiment/2025-07-16/MSFT_sentiment.csv
+JD,,2025-07-16,Sentiment file not found: sentiments/sentiment/2025-07-16/JD_sentiment.csv
+BABA,,2025-07-16,Sentiment file not found: sentiments/sentiment/2025-07-16/BABA_sentiment.csv
+T,,2025-07-16,Sentiment file not found: sentiments/sentiment/2025-07-16/T_sentiment.csv
+META,,2025-07-16,Sentiment file not found: sentiments/sentiment/2025-07-16/META_sentiment.csv
