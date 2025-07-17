@@ -78,6 +78,180 @@ bash run.sh
 tmux kill-session -t 0
 ```
 
+## 🏃 Running the API with systemd
+
+Create a `run.sh` script to launch your API:
+
+```bash
+#!/bin/bash
+cd /home/stock-api
+source .env/bin/activate
+export PYTHONPATH=$(pwd)
+uvicorn app.api:app --host 0.0.0.0 --port 8000
+```
+
+Make it executable:
+
+```bash
+chmod +x /home/stock-api/run.sh
+```
+
+---
+
+## ⚙️ Create the `stock-api.service` File
+
+Open the systemd service file for editing:
+
+```bash
+sudo nano /etc/systemd/system/stock-api.service
+```
+
+Paste the following content:
+
+```ini
+[Unit]
+Description=Stock Market Prediction API (FastAPI with Uvicorn + venv)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/stock-api
+ExecStart=/bin/bash /home/stock-api/run.sh
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
+```
+
+---
+
+## 🚦 Reload & Start the Service
+
+Reload systemd and start your service:
+
+```bash
+sudo systemctl daemon-reexec
+sudo systemctl daemon-reload
+sudo systemctl enable stock-api.service
+sudo systemctl start stock-api.service
+```
+
+To view logs:
+
+```bash
+journalctl -u stock-api.service -f
+```
+
+---
+
+## 🌐 Serve a Static Website with Nginx
+
+### 1️⃣ Install Nginx
+
+**Ubuntu/Debian:**
+```bash
+sudo apt update
+sudo apt install nginx -y
+```
+
+**CentOS/RHEL:**
+```bash
+sudo yum install nginx -y
+sudo systemctl enable nginx
+```
+
+---
+
+### 2️⃣ Place Your Website Files
+
+**Default directory:**
+```bash
+sudo rm -rf /var/www/html/*
+sudo cp -r /path/to/your/website/* /var/www/html/
+```
+
+**Custom directory:**
+```bash
+sudo mkdir -p /var/www/mywebsite
+sudo cp -r /path/to/your/website/* /var/www/mywebsite/
+```
+
+---
+
+### 3️⃣ Configure Nginx
+
+**Edit the default config:**
+```bash
+sudo nano /etc/nginx/sites-available/default
+```
+Replace the `server` block with:
+```nginx
+server {
+    listen 80 default_server;
+    listen [::]:80 default_server;
+
+    root /var/www/html;  # or /var/www/mywebsite
+    index index.html;
+
+    server_name _;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
+```
+
+**Or create a new config:**
+```bash
+sudo nano /etc/nginx/sites-available/mywebsite
+```
+```nginx
+server {
+    listen 80;
+    server_name yourdomain.com;  # or your server's IP
+
+    root /var/www/mywebsite;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+}
+```
+Enable the site:
+```bash
+sudo ln -s /etc/nginx/sites-available/mywebsite /etc/nginx/sites-enabled/
+```
+
+---
+
+### 4️⃣ Test & Restart Nginx
+
+```bash
+sudo nginx -t
+sudo systemctl restart nginx
+```
+
+---
+
+### 5️⃣ Adjust Firewall (if needed)
+
+```bash
+sudo ufw allow 'Nginx Full'
+```
+
+---
+
+### 6️⃣ View Your Website
+
+Open your browser and visit:  
+`http://<your-server-ip>` or `http://yourdomain.com`
+
+---
+
 ## 📡 API Endpoints
 
 ### Health Check
