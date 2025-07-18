@@ -11,7 +11,9 @@ from fastapi.middleware.cors import CORSMiddleware
 import app.scheduler  # ensures the daily scheduler runs
 
 app = FastAPI()
-TODAY = datetime.today().strftime("%Y-%m-%d")
+
+def get_today():
+    return datetime.today().strftime("%Y-%m-%d")
 
 # Add CORS middleware
 app.add_middleware(
@@ -34,7 +36,7 @@ def favicon():
 
 @app.get("/health")
 def health_check():
-    return {"status": "ok", "date": TODAY}
+    return {"status": "ok", "date": get_today()}
 
 @app.get("/")
 def root():
@@ -44,7 +46,7 @@ def root():
 
 @app.get("/sentiment_summary/{symbol}")
 def get_summary(symbol: str):
-    file_path = f"sentiments/summary/{TODAY}/{symbol.upper()}_summary.csv"
+    file_path = f"sentiments/summary/{get_today()}/{symbol.upper()}_summary.csv"
     if not os.path.exists(file_path):
         return JSONResponse(content={"error": "Summary not found"}, status_code=404)
     df = pd.read_csv(file_path)
@@ -52,7 +54,7 @@ def get_summary(symbol: str):
 
 @app.get("/sentiment_chart/{symbol}")
 def get_chart(symbol: str):
-    chart_path = f"sentiments/charts/{TODAY}/{symbol.upper()}_chart.png"
+    chart_path = f"sentiments/charts/{get_today()}/{symbol.upper()}_chart.png"
     if os.path.exists(chart_path):
         return FileResponse(chart_path, media_type="image/png")
     return JSONResponse(content={"error": "Chart not found"}, status_code=404)
@@ -113,7 +115,7 @@ def predict_price(symbol: str = Query(...), days: int = Query(60)):
     try:
         price = predict_lstm_price(symbol.upper(), days)
         return {
-            "date": TODAY,
+            "date": get_today(),
             "stock": symbol.upper(),
             "predicted_price_for_tommorow": float(round(price, 2))  # Fix: convert numpy.float32 to float
         }
@@ -126,7 +128,7 @@ def predict_price_sentiment(symbol: str = Query(...), days: int = Query(60)):
     try:
         price = predict_lstm_sentiment_price(symbol.upper(), days)
         return {
-            "date": TODAY,
+            "date": get_today(),
             "stock": symbol.upper(),
             "predicted_price_for_tommorow": float(round(price, 2))  # Fix: convert numpy.float32 to float
         }
