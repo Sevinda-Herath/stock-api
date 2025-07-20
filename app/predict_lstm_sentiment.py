@@ -3,12 +3,18 @@ def predict_lstm_sentiment_price(symbol, time_steps):
     import pandas as pd
     from sklearn.preprocessing import MinMaxScaler
     from tensorflow.keras.models import load_model
-    from datetime import datetime
+    from datetime import datetime, timedelta, time
     import os
 
-    today = datetime.today().strftime('%Y-%m-%d')
+    # Determine the correct date (yesterday if before 02:45 UTC)
+    now_utc = datetime.utcnow()
+    if now_utc.time() < time(2, 45):
+        effective_date = (now_utc - timedelta(days=1)).strftime('%Y-%m-%d')
+    else:
+        effective_date = now_utc.strftime('%Y-%m-%d')
+
     model_path = f"models/lstm_senti/{symbol}_best_model.h5"
-    sentiment_path = f"sentiments/sentiment/{today}/{symbol}_sentiment.csv"
+    sentiment_path = f"sentiments/sentiment/{effective_date}/{symbol}_sentiment.csv"
     stock_path = f"datasets/{symbol}_daily_data.csv"
 
     if not os.path.exists(model_path):
