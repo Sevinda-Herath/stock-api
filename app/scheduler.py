@@ -77,8 +77,8 @@ def run_git_sync():
 
 # Schedule the tasks
 scheduler = BackgroundScheduler()
-scheduler.add_job(run_daily_scripts, 'cron', hour=2, minute=30)  # 02:30 UTC
-scheduler.add_job(run_git_sync, 'cron', hour=4, minute=18)       # 03:43 UTC
+scheduler.add_job(run_daily_scripts, 'cron', hour=2, minute=30)  # 02:30 UTC SLTC 08:00
+scheduler.add_job(run_git_sync, 'cron', hour=2, minute=45)       # 02:45 UTC SLTC 08:15
 scheduler.start()
 
 print(f"[{datetime.now()}] Scheduler started and running in background.")
