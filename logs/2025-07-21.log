@@ -122,3 +122,37 @@
 [02:33:26] ✅ Combined results saved to: results/2025-07-21/lstm.csv and lstm_senti.csv
 [02:33:26] 🛑 Prediction job completed.
 
+[12:49:00] 🟢 Prediction job started for 2025-07-21
+[12:49:00] 🔍 Predicting AMZN...
+[12:49:08] ✅ AMZN LSTM Prediction: $223.13
+[12:49:09] ✅ AMZN LSTM+Sentiment Prediction: $223.31
+[12:49:09] 🔍 Predicting AAPL...
+[12:49:10] ✅ AAPL LSTM Prediction: $209.86
+[12:49:10] ✅ AAPL LSTM+Sentiment Prediction: $209.70
+[12:49:10] 🔍 Predicting GOOGL...
+[12:49:11] ✅ GOOGL LSTM Prediction: $183.85
+[12:49:12] ✅ GOOGL LSTM+Sentiment Prediction: $182.76
+[12:49:12] 🔍 Predicting 005930.KS...
+[12:49:12] ✅ 005930.KS LSTM Prediction: $66717.09
+[12:49:13] ✅ 005930.KS LSTM+Sentiment Prediction: $67037.22
+[12:49:13] 🔍 Predicting 2317.TW...
+[12:49:14] ✅ 2317.TW LSTM Prediction: $165.14
+[12:49:14] ✅ 2317.TW LSTM+Sentiment Prediction: $166.30
+[12:49:14] 🔍 Predicting MSFT...
+[12:49:15] ✅ MSFT LSTM Prediction: $497.31
+[12:49:16] ✅ MSFT LSTM+Sentiment Prediction: $507.75
+[12:49:16] 🔍 Predicting JD...
+[12:49:16] ✅ JD LSTM Prediction: $33.48
+[12:49:17] ✅ JD LSTM+Sentiment Prediction: $33.63
+[12:49:17] 🔍 Predicting BABA...
+[12:49:18] ✅ BABA LSTM Prediction: $119.00
+[12:49:18] ✅ BABA LSTM+Sentiment Prediction: $118.84
+[12:49:18] 🔍 Predicting T...
+[12:49:19] ✅ T LSTM Prediction: $26.84
+[12:49:20] ✅ T LSTM+Sentiment Prediction: $26.98
+[12:49:20] 🔍 Predicting META...
+[12:49:21] ✅ META LSTM Prediction: $698.37
+[12:49:21] ✅ META LSTM+Sentiment Prediction: $703.09
+[12:49:21] ✅ Combined results saved to: results/2025-07-21/lstm.csv and lstm_senti.csv
+[12:49:21] 🛑 Prediction job completed.
+
