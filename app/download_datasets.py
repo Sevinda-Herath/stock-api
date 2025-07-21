@@ -17,10 +17,13 @@ stocks = [
     "META"         # Meta (Facebook)
 ]
 
+def get_today():
+    return datetime.today().strftime("%Y-%m-%d")
+
 start_date = '2000-01-01'
 end_date = datetime.today().strftime('%Y-%m-%d')
 output_dir = "datasets"
-today = datetime.today().strftime('%Y-%m-%d')
+today = get_today()
 log_dir = "logs"
 log_file = os.path.join(log_dir, f"{today}.log")
 

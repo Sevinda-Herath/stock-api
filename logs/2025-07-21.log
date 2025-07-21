@@ -156,3 +156,78 @@
 [12:49:21] ✅ Combined results saved to: results/2025-07-21/lstm.csv and lstm_senti.csv
 [12:49:21] 🛑 Prediction job completed.
 
+[13:56:47] 🟢 Dataset download started
+[13:56:47] ⬇️ Downloading data for AMZN...
+[13:56:47] ✅ Saved AMZN to datasets/AMZN_daily_data.csv
+[13:56:47] ⬇️ Downloading data for AAPL...
+[13:56:48] ✅ Saved AAPL to datasets/AAPL_daily_data.csv
+[13:56:48] ⬇️ Downloading data for GOOGL...
+[13:56:48] ✅ Saved GOOGL to datasets/GOOGL_daily_data.csv
+[13:56:48] ⬇️ Downloading data for 005930.KS...
+[13:56:49] ✅ Saved 005930.KS to datasets/005930.KS_daily_data.csv
+[13:56:49] ⬇️ Downloading data for 2317.TW...
+[13:56:49] ✅ Saved 2317.TW to datasets/2317.TW_daily_data.csv
+[13:56:49] ⬇️ Downloading data for MSFT...
+[13:56:50] ✅ Saved MSFT to datasets/MSFT_daily_data.csv
+[13:56:50] ⬇️ Downloading data for JD...
+[13:56:50] ✅ Saved JD to datasets/JD_daily_data.csv
+[13:56:50] ⬇️ Downloading data for BABA...
+[13:56:50] ✅ Saved BABA to datasets/BABA_daily_data.csv
+[13:56:50] ⬇️ Downloading data for T...
+[13:56:51] ✅ Saved T to datasets/T_daily_data.csv
+[13:56:51] ⬇️ Downloading data for META...
+[13:56:51] ✅ Saved META to datasets/META_daily_data.csv
+[13:56:51] 🧹 Cleaned first row in: datasets/AMZN_daily_data.csv
+[13:56:51] 🧹 Cleaned first row in: datasets/AAPL_daily_data.csv
+[13:56:52] 🧹 Cleaned first row in: datasets/GOOGL_daily_data.csv
+[13:56:52] 🧹 Cleaned first row in: datasets/005930.KS_daily_data.csv
+[13:56:52] 🧹 Cleaned first row in: datasets/2317.TW_daily_data.csv
+[13:56:52] 🧹 Cleaned first row in: datasets/MSFT_daily_data.csv
+[13:56:52] 🧹 Cleaned first row in: datasets/JD_daily_data.csv
+[13:56:52] 🧹 Cleaned first row in: datasets/BABA_daily_data.csv
+[13:56:52] 🧹 Cleaned first row in: datasets/T_daily_data.csv
+[13:56:52] 🧹 Cleaned first row in: datasets/META_daily_data.csv
+[13:56:52] ✅ Dataset download completed
+
+[13:57:32] 🟢 Dataset download started
+[13:57:32] ⬇️ Downloading data for AMZN...
+[13:57:33] ✅ Saved AMZN to datasets/AMZN_daily_data.csv
+[13:57:33] ⬇️ Downloading data for AAPL...
+[13:57:34] ✅ Saved AAPL to datasets/AAPL_daily_data.csv
+[13:57:34] ⬇️ Downloading data for GOOGL...
+[13:57:34] ✅ Saved GOOGL to datasets/GOOGL_daily_data.csv
+[13:57:34] ⬇️ Downloading data for 005930.KS...
+[13:57:35] ✅ Saved 005930.KS to datasets/005930.KS_daily_data.csv
+[13:57:35] ⬇️ Downloading data for 2317.TW...
+[13:57:35] ✅ Saved 2317.TW to datasets/2317.TW_daily_data.csv
+[13:57:35] ⬇️ Downloading data for MSFT...
+[13:57:36] ✅ Saved MSFT to datasets/MSFT_daily_data.csv
+[13:57:36] ⬇️ Downloading data for JD...
+[13:57:36] ✅ Saved JD to datasets/JD_daily_data.csv
+[13:57:36] ⬇️ Downloading data for BABA...
+[13:57:36] ✅ Saved BABA to datasets/BABA_daily_data.csv
+[13:57:36] ⬇️ Downloading data for T...
+[13:57:37] ✅ Saved T to datasets/T_daily_data.csv
+[13:57:37] ⬇️ Downloading data for META...
+[13:57:37] ✅ Saved META to datasets/META_daily_data.csv
+[13:57:37] 🧹 Cleaned first row in: datasets/AMZN_daily_data.csv
+[13:57:37] 🧹 Cleaned first row in: datasets/AAPL_daily_data.csv
+[13:57:37] 🧹 Cleaned first row in: datasets/GOOGL_daily_data.csv
+[13:57:37] 🧹 Cleaned first row in: datasets/005930.KS_daily_data.csv
+[13:57:37] 🧹 Cleaned first row in: datasets/2317.TW_daily_data.csv
+[13:57:37] 🧹 Cleaned first row in: datasets/MSFT_daily_data.csv
+[13:57:37] 🧹 Cleaned first row in: datasets/JD_daily_data.csv
+[13:57:37] 🧹 Cleaned first row in: datasets/BABA_daily_data.csv
+[13:57:37] 🧹 Cleaned first row in: datasets/T_daily_data.csv
+[13:57:37] 🧹 Cleaned first row in: datasets/META_daily_data.csv
+[13:57:37] ✅ Dataset download completed
+
+[13:58:47] 🟢 Dataset download started
+[13:58:47] ⬇️ Downloading data for AMZN...
+[13:58:48] ✅ Saved AMZN to datasets/AMZN_daily_data.csv
+[13:58:48] ⬇️ Downloading data for BABA...
+[13:58:48] ✅ Saved BABA to datasets/BABA_daily_data.csv
+[13:58:48] 🧹 Cleaned first row in: datasets/AMZN_daily_data.csv
+[13:58:48] 🧹 Cleaned first row in: datasets/BABA_daily_data.csv
+[13:58:48] ✅ Dataset download completed
+
