@@ -11,3 +11,5 @@ tabulate
 apscheduler
 requests
 python-dotenv
+seaborn
+matplotlib
