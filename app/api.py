@@ -46,7 +46,11 @@ def health_check():
 
 @app.get("/")
 def root():
-    return {"message": "Stock Prediction API is running."}
+    return {
+        "message": "Stock Prediction API is running.",
+        "created_by": "Sevinda-Herath",
+    }
+
 
 # Sentiments Section
 
