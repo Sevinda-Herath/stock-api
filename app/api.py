@@ -6,14 +6,20 @@ from datetime import datetime
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
-
+from datetime import datetime, timedelta, time
 
 import app.scheduler  # ensures the daily scheduler runs
 
 app = FastAPI()
 
+# Test
 def get_today():
-    return datetime.today().strftime("%Y-%m-%d")
+    now_utc = datetime.utcnow()
+    if now_utc.time() < time(2, 45):
+        effective_date = (now_utc - timedelta(days=1)).strftime('%Y-%m-%d')
+    else:
+        effective_date = now_utc.strftime('%Y-%m-%d')
+    return effective_date
 
 # Add CORS middleware
 app.add_middleware(
