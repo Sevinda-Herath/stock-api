@@ -2,54 +2,54 @@
 ╔═══════════════════════════════════════════════════════════════════════════════╗
 ║                         STOCK PREDICTION ACCURACY REPORT                     ║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
-║ Generated: 2025-07-28 08:59:24                              ║
-║ Period: 2025-07-15 to 2025-07-25                    ║
+║ Generated: 2025-07-29 06:35:37                              ║
+║ Period: 2025-07-15 to 2025-07-28                    ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
 
 📊 EXECUTIVE SUMMARY
 ─────────────────────
-• Total Predictions Analyzed: 220
+• Total Predictions Analyzed: 280
 • Stocks Covered: 10
 • Models Compared: 2
-• Overall Mean Accuracy: 98.18%
+• Overall Mean Accuracy: 98.25%
 • Accuracy Range: 91.12% - 100.0%
 
 🤖 MODEL PERFORMANCE COMPARISON
 ─────────────────────────────────
 
 LSTM:
-  • Mean Accuracy: 98.09%
-  • Median Accuracy: 98.34%
-  • Standard Deviation: 1.51%
-  • Total Predictions: 110
-  • Mean Error: 1.91%
+  • Mean Accuracy: 98.17%
+  • Median Accuracy: 98.46%
+  • Standard Deviation: 1.56%
+  • Total Predictions: 140
+  • Mean Error: 1.83%
 
 LSTM + SENTI:
-  • Mean Accuracy: 98.26%
-  • Median Accuracy: 98.63%
-  • Standard Deviation: 1.48%
-  • Total Predictions: 110
-  • Mean Error: 1.74%
+  • Mean Accuracy: 98.33%
+  • Median Accuracy: 98.7%
+  • Standard Deviation: 1.5%
+  • Total Predictions: 140
+  • Mean Error: 1.67%
 
 📈 TOP PERFORMING STOCKS
 ─────────────────────────
-1. AAPL: 98.99% (±0.62%)
-2. META: 98.73% (±0.67%)
-3. T: 98.62% (±0.83%)
-4. MSFT: 98.39% (±0.98%)
-5. 2317.TW: 98.24% (±2.08%)
+1. AAPL: 99.13% (±0.61%)
+2. META: 98.78% (±0.61%)
+3. T: 98.78% (±0.81%)
+4. MSFT: 98.43% (±0.93%)
+5. 2317.TW: 98.4% (±1.88%)
 
 🔍 KEY INSIGHTS
 ─────────────────
-1. Overall prediction accuracy averaged 98.18% across all stocks and models
-2. The LSTM + SENTI model performed 0.17% better than the alternative
-3. Most predictable stock: AAPL with 98.99% average accuracy
-4. Least predictable stock: BABA with 97.14% average accuracy
-5. Standard deviation of accuracy was 1.49%, indicating moderate variability
-6. Analysis covered 220 predictions across 10 different stocks
+1. Overall prediction accuracy averaged 98.25% across all stocks and models
+2. The LSTM + SENTI model performed 0.16% better than the alternative
+3. Most predictable stock: AAPL with 99.13% average accuracy
+4. Least predictable stock: 005930.KS with 97.19% average accuracy
+5. Standard deviation of accuracy was 1.53%, indicating moderate variability
+6. Analysis covered 280 predictions across 10 different stocks
 
 
 ═══════════════════════════════════════════════════════════════════════════════
-Report saved as: Stock_Prediction_Accuracy_Report_20250728_085924.txt
-JSON data saved as: accuracy_analysis_summary_20250728_085924.json
+Report saved as: Stock_Prediction_Accuracy_Report_20250729_063537.txt
+JSON data saved as: accuracy_analysis_summary_20250729_063537.json
 ═══════════════════════════════════════════════════════════════════════════════
