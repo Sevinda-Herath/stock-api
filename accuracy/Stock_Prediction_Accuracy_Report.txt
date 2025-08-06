@@ -2,13 +2,13 @@
 ╔═══════════════════════════════════════════════════════════════════════════════╗
 ║                         STOCK PREDICTION ACCURACY REPORT                     ║
 ╠═══════════════════════════════════════════════════════════════════════════════╣
-║ Generated: 2025-08-05 04:05:14                              ║
-║ Period: 2025-07-15 to 2025-08-04                    ║
+║ Generated: 2025-08-06 06:06:27                              ║
+║ Period: 2025-07-15 to 2025-08-05                    ║
 ╚═══════════════════════════════════════════════════════════════════════════════╝
 
 📊 EXECUTIVE SUMMARY
 ─────────────────────
-• Total Predictions Analyzed: 420
+• Total Predictions Analyzed: 440
 • Stocks Covered: 10
 • Models Compared: 2
 • Overall Mean Accuracy: 97.94%
@@ -20,36 +20,36 @@
 LSTM:
   • Mean Accuracy: 97.87%
   • Median Accuracy: 98.27%
-  • Standard Deviation: 1.83%
-  • Total Predictions: 210
+  • Standard Deviation: 1.82%
+  • Total Predictions: 220
   • Mean Error: 2.13%
 
 LSTM + SENTI:
-  • Mean Accuracy: 98.02%
-  • Median Accuracy: 98.54%
-  • Standard Deviation: 1.73%
-  • Total Predictions: 210
-  • Mean Error: 1.98%
+  • Mean Accuracy: 98.01%
+  • Median Accuracy: 98.56%
+  • Standard Deviation: 1.72%
+  • Total Predictions: 220
+  • Mean Error: 1.99%
 
 📈 TOP PERFORMING STOCKS
 ─────────────────────────
-1. T: 98.86% (±0.72%)
-2. AAPL: 98.8% (±0.91%)
-3. 2317.TW: 98.13% (±1.79%)
-4. JD: 98.01% (±1.57%)
-5. BABA: 97.94% (±2.12%)
+1. T: 98.86% (±0.7%)
+2. AAPL: 98.81% (±0.89%)
+3. JD: 98.06% (±1.55%)
+4. 2317.TW: 98.02% (±1.83%)
+5. BABA: 97.99% (±2.08%)
 
 🔍 KEY INSIGHTS
 ─────────────────
 1. Overall prediction accuracy averaged 97.94% across all stocks and models
-2. The LSTM + SENTI model performed 0.15% better than the alternative
+2. The LSTM + SENTI model performed 0.14% better than the alternative
 3. Most predictable stock: T with 98.86% average accuracy
-4. Least predictable stock: 005930.KS with 97.04% average accuracy
-5. Standard deviation of accuracy was 1.78%, indicating moderate variability
-6. Analysis covered 420 predictions across 10 different stocks
+4. Least predictable stock: 005930.KS with 97.14% average accuracy
+5. Standard deviation of accuracy was 1.77%, indicating moderate variability
+6. Analysis covered 440 predictions across 10 different stocks
 
 
 ═══════════════════════════════════════════════════════════════════════════════
-Report saved as: Stock_Prediction_Accuracy_Report_20250805_040514.txt
-JSON data saved as: accuracy_analysis_summary_20250805_040514.json
+Report saved as: Stock_Prediction_Accuracy_Report_20250806_060627.txt
+JSON data saved as: accuracy_analysis_summary_20250806_060627.json
 ═══════════════════════════════════════════════════════════════════════════════
